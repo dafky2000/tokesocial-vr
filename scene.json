@@ -1,0 +1,37 @@
+{
+  "display": {
+    "title": "TokeSocial"
+  },
+  "owner": "",
+  "contact": {
+    "name": "",
+    "email": ""
+  },
+  "scene": {
+    "parcels": [
+      "-71,49",
+      "-70,49",
+      "-71,48",
+      "-70,48",
+      "-71,47",
+      "-70,47",
+      "-71,46",
+      "-70,46",
+      "-69,46",
+      "-70,45",
+      "-69,45"
+    ],
+    "base": "-71,49"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://rendezvous.decentraland.org"
+  },
+  "policy": {
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": [],
+    "teleportPosition": "0,0,0"
+  },
+  "main": "scene.js"
+}
