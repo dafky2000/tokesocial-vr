@@ -117,26 +117,26 @@ export default class HouseScene extends DCL.ScriptableScene<any, IState> {
           {/* West */}
           <scene position={{ x: 2, y: 0, z: 4.5 }}>
             <gltf-model position={{ x: 0.5, y: 0, z: .15 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
-            <gltf-model position={{ x: 1, y: 0, z: -1 }} rotation={{ x: 0, y: 0, z: 0 }} scale={0.75} src="models/Umbrella_Mono_01.gltf" />
+            <gltf-model position={{ x: 1, y: 0, z: 0.5 }} rotation={{ x: 0, y: 0, z: 0 }} scale={0.75} src="models/Umbrella_Mono_01.gltf" />
             {/* table */}
             <gltf-model position={{ x: 2.5, y: 0, z: .15 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
-            <gltf-model position={{ x: 3, y: 0, z: -1 }} rotation={{ x: 0, y: 0, z: 0 }} scale={0.75} src="models/Umbrella_Mono_01.gltf" />
+            <gltf-model position={{ x: 3, y: 0, z: 0.5 }} rotation={{ x: 0, y: 0, z: 0 }} scale={0.75} src="models/Umbrella_Mono_01.gltf" />
             <gltf-model position={{ x: 3.5, y: 0, z: .15 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
             {/* table */}
-            <gltf-model position={{ x: 5, y: 0, z: -1 }} rotation={{ x: 0, y: 0, z: 0 }} scale={0.75} src="models/Umbrella_Mono_01.gltf" />
+            <gltf-model position={{ x: 5, y: 0, z: 0.5 }} rotation={{ x: 0, y: 0, z: 0 }} scale={0.75} src="models/Umbrella_Mono_01.gltf" />
             <gltf-model position={{ x: 5.5, y: 0, z: .15 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
           </scene>
 
           {/* East */}
           <scene position={{ x: 12, y: 0, z: 4.5 }}>
             <gltf-model position={{ x: 0.5, y: 0, z: .15 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
-            <gltf-model position={{ x: 1, y: 0, z: -1 }} rotation={{ x: 0, y: 0, z: 0 }} scale={0.75} src="models/Umbrella_Mono_01.gltf" />
+            <gltf-model position={{ x: 1, y: 0, z: 0.5 }} rotation={{ x: 0, y: 0, z: 0 }} scale={0.75} src="models/Umbrella_Mono_01.gltf" />
             {/* table */}
             <gltf-model position={{ x: 2.5, y: 0, z: .15 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
-            <gltf-model position={{ x: 3, y: 0, z: -1 }} rotation={{ x: 0, y: 0, z: 0 }} scale={0.75} src="models/Umbrella_Mono_01.gltf" />
+            <gltf-model position={{ x: 3, y: 0, z: 0.5 }} rotation={{ x: 0, y: 0, z: 0 }} scale={0.75} src="models/Umbrella_Mono_01.gltf" />
             <gltf-model position={{ x: 3.5, y: 0, z: .15 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
             {/* table */}
-            <gltf-model position={{ x: 5, y: 0, z: -1 }} rotation={{ x: 0, y: 0, z: 0 }} scale={0.75} src="models/Umbrella_Mono_01.gltf" />
+            <gltf-model position={{ x: 5, y: 0, z: 0.5 }} rotation={{ x: 0, y: 0, z: 0 }} scale={0.75} src="models/Umbrella_Mono_01.gltf" />
             <gltf-model position={{ x: 5.5, y: 0, z: .15 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
           </scene>
         </scene>
