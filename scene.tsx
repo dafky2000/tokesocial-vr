@@ -28,60 +28,103 @@ export default class HouseScene extends DCL.ScriptableScene<any, IState> {
     return (
       <scene>
         {/* Lounge */}
-        <scene position={{ x: 2, y: 0, z: 2.5 }}>
-          <scene position={{ x: 0, y: 0, z: 0 }}>
+        <scene position={{ x: 0, y: 0, z: 0 }}>
+          <scene position={{ x: 2.35, y: 0, z: 0.75 }} scale={0.75}>
             <scene position={{ x: 0, y: 0, z: 0 }}>
-              <gltf-model position={{ x: 0, y: 0, z: 1.5 }} scale={1} src="models/Lounge_Chair_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0.75 }} scale={1} src="models/Umbrella_Mono_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
             </scene>
 
-            <scene position={{ x: 0, y: 0, z: 3.5 }}>
-              <gltf-model position={{ x: 0, y: 0, z: 1.5 }} scale={1} src="models/Lounge_Chair_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0.75 }} scale={1} src="models/Umbrella_Mono_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
+            <scene position={{ x: 0, y: 0, z: 2.5 }}>
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
             </scene>
           </scene>
 
-          <scene position={{ x: 4, y: 0, z: 0 }}>
+          <scene position={{ x: 2.35, y: 0, z: 5.25 }} scale={0.75}>
             <scene position={{ x: 0, y: 0, z: 0 }}>
-              <gltf-model position={{ x: 0, y: 0, z: 1.5 }} rotation={{ x: 0, y: 180, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0.75 }} rotation={{ x: 0, y: 180, z: 0 }} scale={1} src="models/Umbrella_Mono_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 180, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
             </scene>
 
-            <scene position={{ x: 0, y: 0, z: 3.5 }}>
-              <gltf-model position={{ x: 0, y: 0, z: 1.5 }} rotation={{ x: 0, y: 180, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0.75 }} rotation={{ x: 0, y: 180, z: 0 }} scale={1} src="models/Umbrella_Mono_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 180, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
+            <scene position={{ x: 0, y: 0, z: 2.5 }}>
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
             </scene>
           </scene>
 
-          <scene position={{ x: 12, y: 0, z: 0 }}>
+          <scene position={{ x: 5.35, y: 0, z: 0.75 }} scale={0.75}>
             <scene position={{ x: 0, y: 0, z: 0 }}>
-              <gltf-model position={{ x: 0, y: 0, z: 1.5 }} scale={1} src="models/Sun_Bed_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0.75 }} scale={1} src="models/Umbrella_Mono_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
             </scene>
 
-            <scene position={{ x: 0, y: 0, z: 3.5 }}>
-              <gltf-model position={{ x: 0, y: 0, z: 1.5 }} scale={1} src="models/Sun_Bed_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0.75 }} scale={1} src="models/Umbrella_Mono_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+            <scene position={{ x: 0, y: 0, z: 2.5 }}>
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
             </scene>
           </scene>
 
-          <scene position={{ x: 16, y: 0, z: 0 }}>
+          <scene position={{ x: 5.35, y: 0, z: 5.25 }} scale={0.75}>
             <scene position={{ x: 0, y: 0, z: 0 }}>
-              <gltf-model position={{ x: 0, y: 0, z: 1.5 }} rotation={{ x: 0, y: 180, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0.75 }} rotation={{ x: 0, y: 180, z: 0 }} scale={1} src="models/Umbrella_Mono_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 180, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
             </scene>
 
-            <scene position={{ x: 0, y: 0, z: 3.5 }}>
-              <gltf-model position={{ x: 0, y: 0, z: 1.5 }} rotation={{ x: 0, y: 180, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0.75 }} rotation={{ x: 0, y: 180, z: 0 }} scale={1} src="models/Umbrella_Mono_01.gltf" />
-              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 180, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+            <scene position={{ x: 0, y: 0, z: 2.5 }}>
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Lounge_Chair_01.gltf" />
+            </scene>
+          </scene>
+        </scene>
+
+        {/* Lounge2 */}
+        <scene position={{ x: 11, y: 0, z: 0 }}>
+          <scene position={{ x: 2.35, y: 0, z: 0.75 }} scale={0.75}>
+            <scene position={{ x: 0, y: 0, z: 0 }}>
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+            </scene>
+
+            <scene position={{ x: 0, y: 0, z: 2.5 }}>
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+            </scene>
+          </scene>
+
+          <scene position={{ x: 2.35, y: 0, z: 5.25 }} scale={0.75}>
+            <scene position={{ x: 0, y: 0, z: 0 }}>
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+            </scene>
+
+            <scene position={{ x: 0, y: 0, z: 2.5 }}>
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+            </scene>
+          </scene>
+
+          <scene position={{ x: 5.35, y: 0, z: 0.75 }} scale={0.75}>
+            <scene position={{ x: 0, y: 0, z: 0 }}>
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+            </scene>
+
+            <scene position={{ x: 0, y: 0, z: 2.5 }}>
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+            </scene>
+          </scene>
+
+          <scene position={{ x: 5.35, y: 0, z: 5.25 }} scale={0.75}>
+            <scene position={{ x: 0, y: 0, z: 0 }}>
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+            </scene>
+
+            <scene position={{ x: 0, y: 0, z: 2.5 }}>
+              <gltf-model position={{ x: 0, y: 0, z: 0 }} rotation={{ x: 0, y: 90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
+              <gltf-model position={{ x: 1.75, y: 0, z: .15 }} rotation={{ x: 0, y: -90, z: 0 }} scale={1} src="models/Sun_Bed_01.gltf" />
             </scene>
           </scene>
         </scene>
