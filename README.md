@@ -1,4 +1,6 @@
 ```bash
+git clone https://github.com/dafky2000/tokesocial-vr.gi://github.com/dafky2000/tokesocial-vr.git
+cd tokesocial-vr
 docker build . -t tokesocialvr
 npm install
 
