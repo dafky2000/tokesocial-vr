@@ -24,6 +24,6 @@ RUN npm install
 # Reset the permissions
 RUN chown -R node:node /usr/src/app/
 
-EXPOSE 8000:8000
+EXPOSE 8000
 
 CMD [ "/usr/local/lib/node_modules/decentraland/bin/dcl", "start" ]
