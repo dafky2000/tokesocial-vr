@@ -1,0 +1,360 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 1560,
+            "max" : [
+                919
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 920,
+            "max" : [
+                3.1275577545166016,
+                28.233749389648438,
+                34.8284797668457
+            ],
+            "min" : [
+                -78.93382263183594,
+                -9.334196090698242,
+                -1.263601541519165
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 920,
+            "max" : [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 920,
+            "max" : [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 920,
+            "max" : [
+                1.0,
+                1.2785145938396454
+            ],
+            "min" : [
+                0.0014772415161132812,
+                -0.2368096113204956
+            ],
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5121,
+            "count" : 24,
+            "max" : [
+                15
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 16,
+            "max" : [
+                39.16006088256836,
+                23.669607162475586,
+                14.761284828186035
+            ],
+            "min" : [
+                -39.443031311035156,
+                -0.18799352645874023,
+                -12.041300773620605
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 16,
+            "max" : [
+                0.7831659913063049,
+                1.0,
+                -0.0
+            ],
+            "min" : [
+                -0.7831659913063049,
+                -1.0,
+                -0.0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 16,
+            "max" : [
+                0.7062810659408569,
+                3.7413148675113916e-05,
+                -0.0,
+                1.0
+            ],
+            "min" : [
+                -0.7831940650939941,
+                -0.9939029216766357,
+                -1.0,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 16,
+            "max" : [
+                0.9999999403953552,
+                2.3824713230133057
+            ],
+            "min" : [
+                1.7537779228860018e-08,
+                -1.6505708694458008
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 3120,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11040,
+            "byteOffset" : 3120,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11040,
+            "byteOffset" : 14160,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14720,
+            "byteOffset" : 25200,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7360,
+            "byteOffset" : 39920,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 47280,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 47304,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 47496,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 256,
+            "byteOffset" : 47688,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 128,
+            "byteOffset" : 47944,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 48072,
+            "uri" : "Lounge_Chair_01.bin"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "Material #0",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "metallicFactor" : 0.0
+            }
+        },
+        {
+            "name" : "WP_White",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "metallicFactor" : 0.0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Untitled.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Untitled",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 7,
+                        "POSITION" : 6,
+                        "TANGENT" : 8,
+                        "TEXCOORD_0" : 9
+                    },
+                    "indices" : 5,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "children" : [
+                1,
+                2
+            ],
+            "name" : "Lounge_Chair_01",
+            "rotation" : [
+                -2.1855694143368964e-08,
+                0.0,
+                -0.0,
+                1.0
+            ],
+            "scale" : [
+                0.02539999969303608,
+                0.02539999969303608,
+                0.02539999969303608
+            ],
+            "translation" : [
+                -0.058447740972042084,
+                0.4842626452445984,
+                0.00224988698028028
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Lounge_Chair_Backing",
+            "rotation" : [
+                -4.627408872748262e-11,
+                9.02389263509778e-17,
+                3.9444682147428924e-24,
+                1.0
+            ],
+            "scale" : [
+                1.0000001192092896,
+                1.0000001192092896,
+                1.0
+            ],
+            "translation" : [
+                -0.48106908798217773,
+                -9.07308292388916,
+                -1.3730478286743164
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Lounge_Chair_Supports",
+            "rotation" : [
+                -4.627408872748262e-11,
+                9.02389263509778e-17,
+                3.9444682147428924e-24,
+                1.0
+            ],
+            "scale" : [
+                1.0000001192092896,
+                1.0000001192092896,
+                1.0
+            ],
+            "translation" : [
+                37.99053955078125,
+                -9.702320098876953,
+                -16.782440185546875
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}
